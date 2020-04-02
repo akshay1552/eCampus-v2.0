@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_guhome"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_guclg"
+            android:title="About College" />
+        <item
+            android:id="@+id/nav_gudep"
+            android:title="About Department" />
+        <item
+            android:id="@+id/nav_guadm"
+            android:title="Admission Process" />
+        <item
+            android:id="@+id/nav_gufee"
+            android:title="Fee Structure" />
+    </group>
+
+
+</menu>

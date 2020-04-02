@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_suhome"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_suclg"
+            android:title="About College" />
+        <item
+            android:id="@+id/nav_sudep"
+            android:title="About Department" />
+        <item
+            android:id="@+id/nav_sucourse"
+            android:title="Course Registartion" />
+        <item
+            android:id="@+id/nav_suexam"
+            android:title="Exam Registartion" />
+        <item
+            android:id="@+id/nav_suresult"
+            android:title="Result" />
+        <item
+            android:id="@+id/nav_sunotes"
+            android:title="Notes" />
+        <item
+            android:id="@+id/nav_sunotice"
+            android:title="Notice" />
+    </group>
+
+</menu>

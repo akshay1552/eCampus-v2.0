@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admin_course_view.ViewCourse4Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/Black"
+        android:textSize="20dp"
+        android:text="Course Registration"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/enroll"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rbutton"
+                android:layout_margin="15dp"
+                android:hint=" Enter Enrollment Number"/>
+
+            <TextView
+                android:id="@+id/course1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rbutton"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text=" Course ID - Course Name" />
+
+            <TextView
+                android:id="@+id/course2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rbutton"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text=" Course ID - Course Name" />
+
+            <TextView
+                android:id="@+id/course3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rbutton"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text=" Course ID - Course Name" />
+
+            <TextView
+                android:id="@+id/course4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rbutton"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text=" Course ID - Course Name" />
+
+            <TextView
+                android:id="@+id/course5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rbutton"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text=" Course ID - Course Name" />
+
+            <TextView
+                android:id="@+id/course6"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rbutton"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text=" Course ID - Course Name" />
+
+            <Button
+                android:id="@+id/CourseviewBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="UPLOAD"
+                android:background="@drawable/rbutton"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

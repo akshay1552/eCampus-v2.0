@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".Teacher_ndrawer.Teacher_notice.TeacherNoticeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/Black"
+        android:text="Notice"/>
+
+    <EditText
+        android:id="@+id/notice_no"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/rbutton"
+        android:textColor="@color/Black"
+        android:hint="  Enter Notice Number "/>
+
+    <EditText
+        android:id="@+id/notice_date"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rbutton"
+        android:textColor="@color/Black"
+        android:hint="  Enter Date in dd/mm/yyyy "/>
+
+    <EditText
+        android:id="@+id/notice"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:background="@drawable/rbutton"
+        android:textColor="@color/Black"
+        android:hint="  Enter Notice "/>
+
+    <Button
+        android:id="@+id/btn_upload_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="2dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rbutton"
+        android:text="  Upload Noitice  "/>
+
+
+
+</LinearLayout>
