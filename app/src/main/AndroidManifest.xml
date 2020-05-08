@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Admin_ndrawer.Exam_reg.ExamRegActivity"></activity>
+        <activity android:name=".GalleryActivity"
+                  android:theme="@style/Noaction"></activity>
+        <activity android:name=".Admin_ndrawer.Exam_reg.ExamRegActivity" />
         <activity android:name=".admin_course_view.ViewCourse6Activity" />
         <activity android:name=".admin_course_view.ViewCourse5Activity" />
         <activity android:name=".admin_course_view.ViewCourse4Activity" />

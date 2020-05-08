@@ -128,7 +128,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         float2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this,CollegeActivity.class);
+                Intent intent = new Intent(LoginActivity.this,GalleryActivity.class);
                 startActivity(intent);
             }
         });
