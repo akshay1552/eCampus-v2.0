@@ -17,9 +17,6 @@
             android:id="@+id/nav_sucourse"
             android:title="Course Registartion" />
         <item
-            android:id="@+id/nav_suexam"
-            android:title="Exam Registartion" />
-        <item
             android:id="@+id/nav_suresult"
             android:title="Result" />
         <item

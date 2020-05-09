@@ -30,12 +30,6 @@
         tools:layout="@layout/fragment_sucourse" />
 
     <fragment
-        android:id="@+id/nav_suexam"
-        android:name="com.example.ecampus.Student_ndrawer.Student_exam.SuExamFragment"
-        android:label="Exam Registration"
-        tools:layout="@layout/fragment_suexam" />
-
-    <fragment
         android:id="@+id/nav_suresult"
         android:name="com.example.ecampus.Student_ndrawer.Student_result.SuResultFragment"
         android:label="Result"

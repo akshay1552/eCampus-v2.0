@@ -24,18 +24,6 @@
         tools:layout="@layout/fragment_tedep" />
 
     <fragment
-        android:id="@+id/nav_tecourse"
-        android:name="com.example.ecampus.Teacher_ndrawer.Teacher_course.TeCourseFragment"
-        android:label="Course Registration"
-        tools:layout="@layout/fragment_tecourse" />
-
-    <fragment
-        android:id="@+id/nav_teexam"
-        android:name="com.example.ecampus.Teacher_ndrawer.Teacher_exam.TeExamFragment"
-        android:label="Exam Registration"
-        tools:layout="@layout/fragment_teexam" />
-
-    <fragment
         android:id="@+id/nav_teresult"
         android:name="com.example.ecampus.Teacher_ndrawer.Teacher_result.TeResultFragment"
         android:label="Result"
@@ -50,6 +38,6 @@
     <fragment
         android:id="@+id/nav_tenotice"
         android:name="com.example.ecampus.Teacher_ndrawer.Teacher_notice.TeNoticeFragment"
-        android:label="Result"
+        android:label="Notice"
         tools:layout="@layout/fragment_teresult" />
 </navigation>

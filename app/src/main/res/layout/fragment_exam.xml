@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:padding="5dp"
         android:layout_marginTop="10dp"
-        android:text="1.Admin have to register the students into the application via Student Registration."
+        android:text="⦿ Admin have to register the students into the application via Student Registration."
         android:textColor="@color/Black"
         android:textSize="17dp"/>
 
@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="5dp"
-        android:text="2.They can use students email id as username."
+        android:text="⦿ They can use students email id as username."
         android:textColor="@color/Black"
         android:textSize="17dp"/>
 
@@ -40,7 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="5dp"
-        android:text="3.Passwords will be set by student themselves."
+        android:text="⦿ Passwords will be set by student themselves."
         android:textColor="@color/Black"
         android:textSize="17dp"/>
 
@@ -53,6 +53,6 @@
         android:layout_gravity="center"
         android:padding="3dp"
         android:background="@drawable/rbutton"
-        android:text="   Registrion  "/>
+        android:text="   Registration "/>
 
 </LinearLayout>

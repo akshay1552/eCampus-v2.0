@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp">
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     <TextView
         android:id="@+id/text_exam"
@@ -15,8 +19,36 @@
         android:layout_marginEnd="8dp"
         android:textAlignment="center"
         android:textStyle="bold"
+        android:textColor="@color/Black"
         android:text="Notes"
         android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="⦿ To get the recent notes, click on the NOTES button."
+            android:textColor="@color/Black"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="⦿ Notes will be in PDF Format."
+            android:textColor="@color/Black"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="⦿ You can also download the notes / view them online."
+            android:textColor="@color/Black"
+            android:textSize="17dp"/>
 
     <Button
         android:id="@+id/notes_view"
@@ -24,9 +56,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_gravity="center"
-        android:textStyle="bold"
-        android:textColor="#EF3C3C"
+        android:textColor="@color/Black"
         android:background="@drawable/rbutton"
         android:text="   View Notes   "/>
 
-</LinearLayout>
+    </LinearLayout>.
+
+</ScrollView>

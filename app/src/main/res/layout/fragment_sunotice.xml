@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="10dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
@@ -17,6 +22,33 @@
         android:textSize="20sp"
         android:text="Notices" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="⦿ Check this section daily so that you can't miss any notice regarding the department posted by the faculty."
+        android:textColor="@color/Black"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="⦿ Click on the NOTICE button to check notices."
+        android:textColor="@color/Black"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="⦿ Notices are uploaded along with their dates, so you should also check the dates while checking the notices."
+        android:textColor="@color/Black"
+        android:textSize="17dp"/>
+
     <Button
         android:id="@+id/notice_view_connect"
         android:layout_width="wrap_content"
@@ -24,6 +56,8 @@
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:background="@drawable/rbutton"
-        android:text="   NOTICES   "/>
+        android:text="   NOTICE   "/>
 
-</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

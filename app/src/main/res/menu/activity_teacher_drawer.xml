@@ -14,12 +14,6 @@
             android:id="@+id/nav_tedep"
             android:title="About Department" />
         <item
-            android:id="@+id/nav_tecourse"
-            android:title="Course Registration" />
-        <item
-            android:id="@+id/nav_teexam"
-            android:title="Exam Registration" />
-        <item
             android:id="@+id/nav_teresult"
             android:title="Result" />
         <item
