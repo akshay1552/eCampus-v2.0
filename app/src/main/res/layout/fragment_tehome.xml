@@ -28,7 +28,7 @@
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:layout_marginTop="15dp"
-            android:text="1. View the course registartion of students."
+            android:text="1. Enter the result od students."
             android:textSize="17dp"
             android:textColor="@color/Black"/>
 
@@ -38,7 +38,7 @@
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:layout_marginTop="5dp"
-            android:text="2. View the exam registartion of students."
+            android:text="2. Send notes that are relevant to the syllabus to students."
             android:textSize="17dp"
             android:textColor="@color/Black"/>
 
@@ -48,17 +48,7 @@
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:layout_marginTop="5dp"
-            android:text="3. Enter the result of students"
-            android:textSize="17dp"
-            android:textColor="@color/Black"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:layout_marginTop="5dp"
-            android:text="4. Send notices to the students."
+            android:text="3. Send notices regarding the department / institute to the students."
             android:textSize="17dp"
             android:textColor="@color/Black"/>
 

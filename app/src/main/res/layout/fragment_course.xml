@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
+    android:padding="10dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -16,6 +17,23 @@
         android:textColor="@color/Black"
         android:text="Course registration "
         android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="1.To view the Course Registration carried out by students, Admin can click this SEMESTER button."
+        android:textColor="@color/Black"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="2.By entering the enrollment no. of student, Admin can be able to see whether the students have registered for appropriate courses or not."
+        android:textColor="@color/Black"
+        android:textSize="17dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"

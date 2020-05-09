@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_gravity="center"
+    android:padding="10dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -14,8 +15,34 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:textAlignment="center"
-        android:text="Exam"
+        android:textColor="@color/Black"
+        android:text="Student Registration"
         android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:text="1.Admin have to register the students into the application via Student Registration."
+        android:textColor="@color/Black"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="2.They can use students email id as username."
+        android:textColor="@color/Black"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="3.Passwords will be set by student themselves."
+        android:textColor="@color/Black"
+        android:textSize="17dp"/>
 
     <Button
         android:id="@+id/st_register"
@@ -26,6 +53,6 @@
         android:layout_gravity="center"
         android:padding="3dp"
         android:background="@drawable/rbutton"
-        android:text="Registrion"/>
+        android:text="   Registrion  "/>
 
 </LinearLayout>

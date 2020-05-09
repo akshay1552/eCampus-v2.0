@@ -36,7 +36,7 @@ public class AdNavigationActivity extends AppCompatActivity {
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_college, R.id.nav_dep,
-                R.id.nav_reg, R.id.nav_examr, R.id.nav_result, R.id.nav_forum, R.id.nav_logout)
+                R.id.nav_reg, R.id.nav_examr, R.id.nav_logout)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);

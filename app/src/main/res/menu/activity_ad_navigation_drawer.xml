@@ -18,10 +18,8 @@
             android:title="Course Registration" />
         <item
             android:id="@+id/nav_examr"
-            android:title="Exam Registration" />
-        <item
-            android:id="@+id/nav_result"
-            android:title="Result" />
+            android:title="Student Registration" />
+
     </group>
 
 
