@@ -43,6 +43,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
+            android:layout_marginTop="9dp"
             android:text="      The institute acquired the existing campus in May, 1985. New Diploma courses viz., Electronics and Instrumentation(in 1988), Mechanical(in 1989) were introduced under the State Government Plan Schemes. The institute started Rubber Technology Department in the year 1999-2000. The Polytechnic added another Diploma program i.e, Commputer in the year 2003."
             android:textSize="17dp"
             android:textColor="@color/Black"/>
@@ -52,6 +53,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
+            android:layout_marginTop="9dp"
             android:textColor="@color/Black"
             android:textSize="17dp"
             android:text="      The Government Institute of Leather Technology has been merged into the polytechnic as a separate department in the year 2003. This department conducts 2 diploma courses,which are, 1. Leather Technology 2. Leather Goods and Footware Manufacturing."/>
@@ -61,6 +63,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
+            android:layout_marginTop="9dp"
             android:textColor="@color/Black"
             android:textSize="17dp"
             android:text="      The polytechnic was awarded Narsee Monjee Award for best performance in 1999 by ISTE. "/>

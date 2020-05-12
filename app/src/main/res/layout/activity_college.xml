@@ -76,7 +76,7 @@
                 android:textStyle="bold"
                 android:textSize="17dp"
                 android:textAlignment="viewStart"
-                android:text="Vission :" />
+                android:text="Vision :" />
 
             <TextView
                 android:layout_width="match_parent"

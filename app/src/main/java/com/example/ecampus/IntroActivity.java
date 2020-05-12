@@ -53,9 +53,9 @@ public class IntroActivity extends AppCompatActivity {
         //fill list screen
 
         final List<introscreen_item> mList = new ArrayList<>();
-        mList.add(new introscreen_item("ADMIN","Allows to update Student entries",R.drawable.admin));
-        mList.add(new introscreen_item("TEACHER","Enter the students information into the the database",R.drawable.teacher));
-        mList.add(new introscreen_item("STUDENT","Can view their Examination result",R.drawable.student));
+        mList.add(new introscreen_item("ADMIN","Handles the registration and database of students.",R.drawable.admin));
+        mList.add(new introscreen_item("TEACHER","Update result,Uploads notes and Notices for students.",R.drawable.teacher));
+        mList.add(new introscreen_item("STUDENT","Carry out their Course Registration and view their result,notes and notices.",R.drawable.student));
         mList.add(new introscreen_item("GUEST","Has the information about College and Department",R.drawable.guest));
 
         //set viewpager

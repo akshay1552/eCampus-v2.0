@@ -48,6 +48,7 @@ transform that knowledge into practical work."
             android:layout_height="wrap_content"
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
+            android:layout_marginTop="9dp"
             android:text="      The Department also started to celebrate its annual event since 2013 named TechKnow. In 2020, it
 was organized on State-Level. Through these events, the department tries to widen the students
 educational reach by providing them a platform to present their ideas and also get to know about
@@ -60,6 +61,7 @@ others ideas."
             android:layout_height="wrap_content"
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
+            android:layout_marginTop="9dp"
             android:text="      The Computer Department also promotes entrepreneurial programmes, instill laboratory skills into
 the students."
             android:textSize="17dp"

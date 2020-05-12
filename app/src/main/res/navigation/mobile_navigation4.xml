@@ -26,7 +26,7 @@
     <fragment
         android:id="@+id/nav_guadm"
         android:name="com.example.ecampus.Guest_ndrawer.Guest_adm.GuadmFragment"
-        android:label="Addmision Process"
+        android:label="Admission Process"
         tools:layout="@layout/fragment_guadm" />
 
     <fragment
