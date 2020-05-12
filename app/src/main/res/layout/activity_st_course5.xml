@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,6 +8,11 @@
     android:orientation="vertical"
     android:layout_gravity="center"
     tools:context=".student_course_reg.StCourse5Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
@@ -42,7 +47,7 @@
                 android:layout_height="40dp"
                 android:background="@drawable/rbutton"
                 android:layout_margin="10dp"
-                android:text=" Course ID - Course Name" />
+                android:text=" CO16405 - Mobile Application Development" />
 
             <EditText
                 android:id="@+id/course2"
@@ -50,7 +55,7 @@
                 android:layout_height="40dp"
                 android:background="@drawable/rbutton"
                 android:layout_margin="10dp"
-                android:text=" Course ID - Course Name" />
+                android:text=" CO16403 - Advanced Database Technology" />
 
             <EditText
                 android:id="@+id/course3"
@@ -58,7 +63,7 @@
                 android:layout_height="40dp"
                 android:background="@drawable/rbutton"
                 android:layout_margin="10dp"
-                android:text=" Course ID - Course Name" />
+                android:text=" IT16308 - Operating System" />
 
             <EditText
                 android:id="@+id/course4"
@@ -66,7 +71,7 @@
                 android:layout_height="40dp"
                 android:background="@drawable/rbutton"
                 android:layout_margin="10dp"
-                android:text=" Course ID - Course Name" />
+                android:text=" CO16404 - Web Page Development" />
 
             <EditText
                 android:id="@+id/course5"
@@ -74,7 +79,7 @@
                 android:layout_height="40dp"
                 android:background="@drawable/rbutton"
                 android:layout_margin="10dp"
-                android:text=" Course ID - Course Name" />
+                android:text=" CO16408 - Python" />
 
             <EditText
                 android:id="@+id/course6"
@@ -82,7 +87,7 @@
                 android:layout_height="40dp"
                 android:background="@drawable/rbutton"
                 android:layout_margin="10dp"
-                android:text=" Course ID - Course Name" />
+                android:text=" CO16301 - Project 1" />
 
             <Button
                 android:id="@+id/CoursesubmitBtn"
@@ -96,4 +101,6 @@
 
     </ScrollView>
 
-</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
